@@ -45,7 +45,7 @@ app.post('/', (req, res) => {
 
     intentMap.set('Default Welcome Intent', welcome)
     intentMap.set('Default Fallback Intent', fallback)
-    intentMap.set('ir:roaming', sim2fly)
+    intentMap.set('MaoMao', sim2fly)
     
     agent.handleRequest(intentMap)
 })
